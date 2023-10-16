@@ -1,12 +1,12 @@
 on:
   push:
-    jobs:
-      build:
-        name: Hello world
-        runs-on: ubuntu-latest
+jobs:
+  build:
+    name: Hello world
+    runs-on: ubuntu-latest
 
-        steps:
-          - uses: actions/checkout@v2
-          - name: Write a multi-line message
-            run:  echo "changes pushed"
+    steps:
+      - uses: actions/checkout@v2
+      - name: Write a multi-line message
+        run:  echo "changes pushed"
       
