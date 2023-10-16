@@ -21,6 +21,6 @@ jobs:
       - name: Remove .next
         run: rm -rf .next
 
-      - name: Running on dev
-        run: npm run dev
+      - name: Running test
+        run: node test.js
        
