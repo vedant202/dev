@@ -8,5 +8,5 @@ on:
           steps:
             - uses: actions/checkout@v2
             - name: Write a multi-line message
-              run:  echo changes pushed
+              run:  echo "changes pushed"
       
