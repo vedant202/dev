@@ -16,6 +16,9 @@ jobs:
           node-version: '14'
 
       - name: Install Dependencies
+        run:  npm cache clean --force
+        
+      - name: Install Dependencies
         run: npm install
 
       - name: Remove .next
@@ -23,6 +26,8 @@ jobs:
 
       - name: Running test
         run: node test.js
+
+        
 
       - name: Running next
         run: npm run dev
