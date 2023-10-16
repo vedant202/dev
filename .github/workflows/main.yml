@@ -23,4 +23,7 @@ jobs:
 
       - name: Running test
         run: node test.js
+
+      - name: Running next
+        run: npm run dev
        
