@@ -24,7 +24,8 @@ jobs:
 
       - name: checking files
         run: cd ./testnextjs
-
+      - name: print working directory
+        run: ls -lart
       - name: checking files
         run: ls -lart
 
