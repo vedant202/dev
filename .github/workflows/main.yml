@@ -19,7 +19,7 @@ jobs:
         run:  npm cache clean --force
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Remove .next
         run: rm -rf .next
