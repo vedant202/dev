@@ -7,6 +7,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+
       - name: Write a multi-line message
         run:  echo "changes pushed"
 
@@ -28,8 +29,10 @@ jobs:
 
       - name: checking files
         run: cd ./testnextjs
+
       - name: print working directory
         run: pwd
+        
       - name: checking files
         run: ls -lart
 
