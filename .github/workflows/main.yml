@@ -19,6 +19,9 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name:checking files
+        run: ls -lart
+
       - name: Remove .next
         run: rm -rf .next
 
