@@ -42,5 +42,6 @@ jobs:
       - name: Running next
         run: |
           cd testnextjs
+          npm install undici@latest
           npm run dev
        
