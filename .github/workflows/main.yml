@@ -25,6 +25,9 @@ jobs:
       - name: checking files
         run: cd testnextjs
 
+      - name: checking files
+        run: ls -lart
+
       - name: Remove .next
         run: rm -rf .next
 
