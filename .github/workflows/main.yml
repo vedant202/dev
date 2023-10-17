@@ -23,7 +23,7 @@ jobs:
         run: ls -lart
 
       - name: checking files
-        run: cd testnextjs
+        run: cd ./testnextjs
 
       - name: checking files
         run: ls -lart
